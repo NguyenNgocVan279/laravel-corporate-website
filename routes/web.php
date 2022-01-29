@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Backend\AdminProfileController;
 use App\Http\Controllers\Frontend\IndexController;
+use App\Http\Controllers\Frontend\MenuController;
 
 
 /*
@@ -51,7 +52,9 @@ Route::post('/update/change/password', [AdminProfileController::class, 'AdminUpd
 
 
 
-// Frontend All Routes
+// FRONTEND ALL ROUTES
+
+// Auth Routes
 Route::middleware(['auth:sanctum,web', 'verified'])->get('/dashboard', function () {
     $id = Auth::user()->id;
     $user = User::find($id);
@@ -69,6 +72,18 @@ Route::post('/user/profile/store', [IndexController::class, 'UserProfileStore'])
 Route::get('/user/change/password', [IndexController::class, 'UserChangePassword'])->name('change.password');
 
 Route::post('/user/password/update', [IndexController::class, 'UserPasswordUpdate'])->name('user.password.update');
+
+
+
+// Menu Routes
+
+Route::get('/dich-vu', [MenuController::class, 'showServicePage'])->name('show.service');
+
+Route::get('/lien-he', [MenuController::class, 'showContactPage'])->name('show.contact');
+
+Route::get('/du-an-mau', [MenuController::class, 'showProjectPage'])->name('show.project');
+
+Route::get('/chia-se-kinh-nghiem', [MenuController::class, 'showBlogPage'])->name('show.blog');
 
 
 

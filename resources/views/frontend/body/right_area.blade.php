@@ -409,4 +409,6 @@
             </div>
         </div>
     </div>
+
+    <button id="myBtn" title="Go to top">Top</button>
 </div>

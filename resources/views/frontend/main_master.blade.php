@@ -54,7 +54,7 @@
 	@yield('content')
 
 	<!-- jQuery -->
-	<script src="{{ asset('frontend/assets/js/jquery.min.js') }}"></script>
+	<script src="{{ asset('frontend/assets/js/jquery.min.js') }}"></script>	
 	<!-- jQuery Easing -->
 	<script src="{{ asset('frontend/assets/js/jquery.easing.1.3.js') }}"></script>
 	<!-- Bootstrap -->
@@ -73,6 +73,8 @@
 	
 	<!-- MAIN JS -->
 	<script src="{{ asset('frontend/assets/js/main.js') }}"></script>
+	<!-- Custom -->
+	<script src="{{ asset('frontend/assets/js/custom.js') }}"></script>	
 
 	</body>
 </html>
