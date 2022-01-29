@@ -40,6 +40,8 @@
 	<link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.theme.default.min.css') }}">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
+	<!-- For Fancy Box -->
+	<link rel="stylesheet" type="text/css" href="{{ asset('frontend/plugins/fancybox/jquery.fancybox-1.3.4.css') }}" media="screen" />
 
 	<!-- Modernizr JS -->
 	<script src="{{ asset('frontend/assets/js/modernizr-2.6.2.min.js') }}"></script>
@@ -54,7 +56,35 @@
 	@yield('content')
 
 	<!-- jQuery -->
-	<script src="{{ asset('frontend/assets/js/jquery.min.js') }}"></script>	
+	<!-- <script src="{{ asset('frontend/assets/js/jquery.min.js') }}"></script> -->
+	<!-- <script type="text/javascript">
+    jQuery.browser = {};
+    (function () {
+        jQuery.browser.msie = false;
+        jQuery.browser.version = 0;
+        if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+            jQuery.browser.msie = true;
+            jQuery.browser.version = RegExp.$1;
+        }
+    })();
+	</script> -->
+
+	<script src="{{ asset('frontend/assets/js/jquery.min.js') }}"></script>
+	<script type="text/javascript">
+    jQuery.browser = {};
+    (function () {
+        jQuery.browser.msie = false;
+        jQuery.browser.version = 0;
+        if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+            jQuery.browser.msie = true;
+            jQuery.browser.version = RegExp.$1;
+        }
+    })();
+	</script>
+	<!-- <script>
+		!window.jQuery && document.write('<script src="{{ asset('frontend/assets/js/jquery.min.js') }}"><\/script>');
+	</script>	 -->
+	
 	<!-- jQuery Easing -->
 	<script src="{{ asset('frontend/assets/js/jquery.easing.1.3.js') }}"></script>
 	<!-- Bootstrap -->
@@ -69,6 +99,10 @@
 	<script src="{{ asset('frontend/assets/js/owl.carousel.min.js') }}"></script>
 	<!-- Counters -->
 	<script src="{{ asset('frontend/assets/js/jquery.countTo.js') }}"></script>
+	<!-- For Fancy Box -->
+	<script type="text/javascript" src="{{ asset('frontend/plugins/fancybox/jquery.mousewheel-3.0.4.pack.js') }}"></script>
+	<!-- <script type="text/javascript" src="{{ asset('frontend/plugins/fancybox/jquery.fancybox-1.3.4.pack.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('frontend/plugins/fancybox/jquery.fancybox-1.3.4.js') }}"></script>
 	
 	
 	<!-- MAIN JS -->

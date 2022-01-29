@@ -48,7 +48,10 @@ $(function () {
         $('html, body').animate({scrollTop: 0},1000);
     });
 
+    //=================Enlarge Image ===============
 
-   
+    $("a.services-wrap").fancybox();
+
+    
     
 });

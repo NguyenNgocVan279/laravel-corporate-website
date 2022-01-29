@@ -178,19 +178,19 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+                            <a href="{{ asset('frontend/assets/images/services-1.jpg') }}" class="services-wrap animate-box" title="WEBSITE DOANH NGHIỆP" data-animate-effect="fadeInRight" rel="service-group">
                                 <div class="services-img" style="background-image: url({{ asset('frontend/assets/images/services-1.jpg') }})"></div>
                                 <div class="desc">
                                     <h3>Website Doanh nghiệp</h3>
                                 </div>
                             </a>
-                            <a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+                            <a href="{{ asset('frontend/assets/images/services-2.jpg') }}" class="services-wrap animate-box" title="WEBSITE BÁN HÀNG" data-animate-effect="fadeInRight" rel="service-group">
                                 <div class="services-img" style="background-image: url({{ asset('frontend/assets/images/services-2.jpg') }})"></div>
                                 <div class="desc">
                                     <h3>Website Bán hàng</h3>
                                 </div>
                             </a>
-                            <a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+                            <a href="{{ asset('frontend/assets/images/services-3.jpg') }}" class="services-wrap animate-box" title="WEBSITE THƯƠNG MẠI ĐIỆN TỬ" data-animate-effect="fadeInRight" rel="service-group">
                                 <div class="services-img" style="background-image: url({{ asset('frontend/assets/images/services-3.jpg') }})"></div>
                                 <div class="desc">
                                     <h3> Website E-Commerce</h3>
@@ -198,13 +198,13 @@
                             </a>
                         </div>
                         <div class="col-md-6 move-bottom">
-                            <a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+                            <a href="{{ asset('frontend/assets/images/services-4.jpg') }}" class="services-wrap animate-box" title="PHẦN MỀM QUẢN LÝ" data-animate-effect="fadeInRight" rel="service-group">
                                 <div class="services-img" style="background-image: url({{ asset('frontend/assets/images/services-4.jpg') }})"></div>
                                 <div class="desc">
                                     <h3>Phần mềm Quản lý Cửa hàng</h3>
                                 </div>
                             </a>
-                            <a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+                            <a href="{{ asset('frontend/assets/images/services-5.jpg') }}" class="services-wrap animate-box" title="LÀM VIDEO QUẢNG CÁO, THIẾT KẾ LOGO" data-animate-effect="fadeInRight" rel="service-group">
                                 <div class="services-img" style="background-image: url({{ asset('frontend/assets/images/services-5.jpg') }})"></div>
                                 <div class="desc">
                                     <h3>Video Quảng cáo, Logo</h3>
@@ -361,7 +361,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                     <div class="blog-entry">
-                        <a href="blog.html" class="blog-img"><img src="{{ asset('frontend/assets/images/blog-1.jpg') }}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                        <a href="#" class="blog-img"><img src="{{ asset('frontend/assets/images/blog-1.jpg') }}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
                         <div class="desc">
                             <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
                             <h3><a href="blog.html">Renovating National Gallery</a></h3>
