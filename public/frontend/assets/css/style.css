@@ -1275,3 +1275,29 @@ body.offcanvas {
 #myBtn:hover {
   background-color: #f0ad4e;
 }
+
+.services-text-img {
+  width: 12px;
+  margin-left: 5px;
+  transition: 0.4s;
+  /* transform: rotate(180deg); */
+
+}
+
+.services-text-img-rotate {
+  transform: rotate(180deg);
+}
+
+.service-features {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.colorlib-feature h5 {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#colorlib-aside #colorlib-main-menu ul li.active a {
+  color: #FFC300; }

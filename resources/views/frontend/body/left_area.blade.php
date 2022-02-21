@@ -12,14 +12,17 @@
 <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
     <h1 id="colorlib-logo"><a href="{{url('/')}}">VinaSOFT</a></h1>
-    <nav id="colorlib-main-menu" role="navigation">
-        <ul>
-            <li class="{{ $route == '' ? 'colorlib-active' : '' }}"><a href="{{url('/')}}">Home</a></li>
-            <li class="{{ $route == 'show.service' ? 'colorlib-active' : '' }}"><a href="{{route('show.service')}}">Dịch vụ</a></li>
-            <li class="{{ $route == 'show.project' ? 'colorlib-active' : '' }}"><a href="{{route('show.project')}}">Dự án</a></li>
-            <li class="{{ $route == 'show.blog' ? 'colorlib-active' : '' }}"><a href="{{route('show.blog')}}">Chia sẻ</a></li>
-            <li class="{{ $route == 'show.contact' ? 'colorlib-active' : '' }}"><a href="{{route('show.contact')}}">Liên hệ</a></li>
-        </ul>
+    <nav id="colorlib-main-menu" class="colorlib-main-menu" role="navigation">
+        <div class="nav">
+            <ul>
+                <li><a href="#colorlib-hero">Home</a></li>
+                <li><a href="#colorlib-about">About</a></li>
+                <li><a href="#colorlib-services">Dịch vụ</a></li>
+                <li><a href="#colorlib-work">Dự án</a></li>
+                <li><a href="#colorlib-blog">Chia sẻ</a></li>
+                <li><a href="#get-in-touch">Liên hệ</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="colorlib-footer">

@@ -54,7 +54,7 @@
         </div>
     </aside>
 
-    <div class="colorlib-about">
+    <div id="colorlib-about" class="colorlib-about">
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6">
@@ -111,7 +111,7 @@
         </div>
     </div>
     
-    <div class="colorlib-services">
+    <div id="colorlib-services" class="colorlib-services">
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -130,6 +130,12 @@
                                 <div class="colorlib-text">
                                     <h3>Xây dựng Website Doanh nghiệp</h3>
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <h5 class="feature-title">Chi tiết nổi bật <img class="services-text-img" src="{{ asset('frontend/assets/images/down-chevron.png') }}" alt="Xem thêm"></h5>
+                                    <div class="service-features">
+                                        - Quaerat tristique temporibus risus maxime nobis litora a, animi, quas veniam ratione, eveniet. <br/>
+                                        - Hac minus ullamco ex nisl interdum. Temporibus, minim, aliquip nisl, reprehenderit leo, fames? <br/>
+                                        - Luctus taciti posuere non vero ab, sed. Adipiscing pharetra interdum sit consequuntur?
+                                    </div>
                                 </div>
                             </div>
 
@@ -139,7 +145,13 @@
                                 </div>
                                 <div class="colorlib-text">
                                     <h3>Xây dựng Website Bán hàng</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                                    <h5 class="feature-title">Chi tiết nổi bật <img class="services-text-img" src="{{ asset('frontend/assets/images/down-chevron.png') }}" alt="Xem thêm"></h5>
+                                    <div class="service-features">
+                                        - Quaerat tristique temporibus risus maxime nobis litora a, animi, quas veniam ratione, eveniet. <br/>
+                                        - Hac minus ullamco ex nisl interdum. Temporibus, minim, aliquip nisl, reprehenderit leo, fames? <br/>
+                                        - Luctus taciti posuere non vero ab, sed. Adipiscing pharetra interdum sit consequuntur?
+                                    </div>
                                 </div>
                             </div>
 
@@ -150,6 +162,12 @@
                                 <div class="colorlib-text">
                                     <h3>Xây dựng Website TMĐT</h3>
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <h5 class="feature-title">Chi tiết nổi bật <img class="services-text-img" src="{{ asset('frontend/assets/images/down-chevron.png') }}" alt="Xem thêm"></h5>
+                                    <div class="service-features">
+                                        - Quaerat tristique temporibus risus maxime nobis litora a, animi, quas veniam ratione, eveniet. <br/>
+                                        - Hac minus ullamco ex nisl interdum. Temporibus, minim, aliquip nisl, reprehenderit leo, fames? <br/>
+                                        - Luctus taciti posuere non vero ab, sed. Adipiscing pharetra interdum sit consequuntur?
+                                    </div>
                                 </div>
                             </div>
 
@@ -160,6 +178,12 @@
                                 <div class="colorlib-text">
                                     <h3>Phần mềm Quản lý Cửa hàng</h3>
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <h5 class="feature-title">Chi tiết nổi bật <img class="services-text-img" src="{{ asset('frontend/assets/images/down-chevron.png') }}" alt="Xem thêm"></h5>
+                                    <div class="service-features">
+                                        - Quaerat tristique temporibus risus maxime nobis litora a, animi, quas veniam ratione, eveniet. <br/>
+                                        - Hac minus ullamco ex nisl interdum. Temporibus, minim, aliquip nisl, reprehenderit leo, fames? <br/>
+                                        - Luctus taciti posuere non vero ab, sed. Adipiscing pharetra interdum sit consequuntur?
+                                    </div>
                                 </div>
                             </div>
 
@@ -170,6 +194,12 @@
                                 <div class="colorlib-text">
                                     <h3>Làm Video Quảng cáo, LogoVideo Quảng cáo, Logo</h3>
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <h5 class="feature-title">Chi tiết nổi bật <img class="services-text-img" src="{{ asset('frontend/assets/images/down-chevron.png') }}" alt="Xem thêm"></h5>
+                                    <div class="service-features">
+                                        - Quaerat tristique temporibus risus maxime nobis litora a, animi, quas veniam ratione, eveniet. <br/>
+                                        - Hac minus ullamco ex nisl interdum. Temporibus, minim, aliquip nisl, reprehenderit leo, fames? <br/>
+                                        - Luctus taciti posuere non vero ab, sed. Adipiscing pharetra interdum sit consequuntur?
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -247,7 +277,7 @@
         </div>
     </div>
 
-    <div class="colorlib-work">
+    <div id="colorlib-work" class="colorlib-work">
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -350,7 +380,7 @@
         </div>
     </div>
 
-    <div class="colorlib-blog">
+    <div id="colorlib-blog" class="colorlib-blog">
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -411,4 +441,5 @@
     </div>
 
     <button id="myBtn" title="Go to top">Top</button>
+    
 </div>
